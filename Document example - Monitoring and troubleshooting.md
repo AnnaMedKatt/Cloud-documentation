@@ -5,7 +5,7 @@
 ### Organizational aspects
 
 - More than one listener can view logs and look for the errors on the environment at the same time. But to restore the environment it is necessary to choose one responsible person from the team;
-- The first case is considered openly as an example. Then listeners will have a chance to look into the rest cases themselves;
+- The first case is an example which should be done by tutor himself. Then listeners will have a chance to look into the rest cases themselves;
 - Listeners have 15 minutes to fix all the problems themselves. If during this time they don't succeed, then it is necessary to explain to them the next step. If after another 15 minutes the team doesn't succeed, then it is necessary to restore the environment independently from the backup and move on to the next case;
 - Laboratory work is designed for 4 hours.
 
@@ -19,7 +19,7 @@
     - [OpenSearch](https://logs-overcloud.private.x.x.ru);
 3. Create and delete a virtual machine using your personal account.
 
-If everything works, then:
+If everything works proceed further.
 
 ### Case 1 - The synchronization between Keycloak and IAM is broken  
 
@@ -46,7 +46,7 @@ Logs message (example):
 > Error","debug":"KEYCLOAK did not return valid status. Keycloak status: 401"}]
 
 **How to repair the synchronization:**
-- Use the Keycloak console under the admin user. Return the correct password to the superadmin user (go through steps 1-5 with a correct password);
+- Log into Keycloak console as an admin user. Change back the password of the superadmin user (go through steps 1-5 with a correct password);
 - Check IAM logs in OpenSearch (there should be no synchronization errors);
 - Make sure that the user *xxx@xx.team* with the {'keycloack_sync': true} 
 attribute appears in IAM (step 8).
