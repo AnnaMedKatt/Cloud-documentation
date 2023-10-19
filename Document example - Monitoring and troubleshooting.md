@@ -4,8 +4,7 @@
 
 ### Organizational aspects
 
-More than one listener can view logs and look for the errors on the environment
-at the same time. But to restore the environment it is necessary to choose one responsible person from the team;
+- More than one listener can view logs and look for the errors on the environment at the same time. But to restore the environment it is necessary to choose one responsible person from the team;
 - The first case is considered openly as an example. Then listeners will have a chance to look into the rest cases themselves;
 - Listeners have 15 minutes to fix all the problems themselves. If during this time they don't succeed, then it is necessary to explain to them the next step. If after another 15 minutes the team doesn't succeed, then it is necessary to restore the environment independently from the backup and move on to the next case;
 - Laboratory work is designed for 4 hours.
