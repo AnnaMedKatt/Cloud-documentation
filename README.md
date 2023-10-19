@@ -1,2 +1,2 @@
-# Cloud documentation repository
-This repository contains examples of technical documentation.
+## Cloud documentation repository
+This repository contains few examples of technical documentation from my last job. I worked in a company that specializes in developing and supporting cloud opensource solutions. I made and edited a wide variety of documents there, such as users/administrators guides, technical specifications, product development plans, workbooks for the new employees, presentations and etc.
