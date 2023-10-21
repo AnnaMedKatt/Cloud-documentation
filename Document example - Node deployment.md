@@ -36,11 +36,11 @@
 
 Nexus is already launched on the deploy host with a script:
 
-> /home/centos/box-3.0.0/nexus-box-3.0.0/run_nexus.sh  
+        /home/centos/box-3.0.0/nexus-box-3.0.0/run_nexus.sh  
 
 This script contains admin password for Nexus:
 
-> $ tail -3 /home/centos/box-3.0.0/nexus-box-3.0.0/run_nexus.sh  
-> echo ========================================================
-> echo NEXUS ADMIN PASSWORD IS: ************  
-> echo ========================================================
+        $ tail -3 /home/centos/box-3.0.0/nexus-box-3.0.0/run_nexus.sh  
+        echo ========================================================
+        echo NEXUS ADMIN PASSWORD IS: ************  
+        echo ========================================================
